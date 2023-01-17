@@ -1,13 +1,13 @@
 ﻿using DatingApp.Data;
 using DatingApp.Entities;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.Controllers
 {
 
     [ApiController]
-    [Route("api/controller")]
+    [Route("api/userscontroller")]
     public class UsersController : ControllerBase
     {
 
